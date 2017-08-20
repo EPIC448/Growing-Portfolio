@@ -1,0 +1,129 @@
+
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('../font/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('abrilfatface-regular-webfont.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+
+}
+/*******body*****/
+html,body{
+  width: 1300px;
+  height: 720px;
+  font-family:'abril_fatfaceregular';
+}
+#wrapper,{
+  width:80%;
+  max-width:1280px;
+  margin: inherit;
+
+}
+#wrapperbutom,{
+  width:80%px;
+  max-width:1280px;
+  margin: inherit;
+}
+
+/*****Top white section****/
+div.top {
+  background-color:white;
+  color:black
+  height:auto;
+  width:100%;
+  font-family: 'abril_fatfaceregular';
+  clear:left;
+  margin-bottom:-9px;
+padding-button:55px;
+
+}
+div.keep{
+  font-family: 'abril_fatfaceregular';
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -2px;
+  font-size: 25px;
+  margin: 18px;
+  padding-left: 40px;
+  line-height: -10px;
+}
+
+div.mind{
+  font-size: 140px;
+  font-weight: bolder;
+  margin: 0px;
+  padding-top:-7px;
+  line-height: 80px;
+}
+div.to {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0px;
+  text-indent: 100px;
+  margin-left: 18px;
+  padding: 0px;
+  line-height: 50px;
+
+}
+
+/****** Black wrapper ***/
+
+div.black{
+  background-color: black;
+  color:white;
+  height:180px;
+  width:100%;
+  font-family: 'abril_fatfaceregular';
+  padding-top: 100px;
+  float:left;
+    clear:both;
+}
+div.blacktext {
+  font-family: 'abril_fatfaceregular';
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -2px;
+  font-size: 25px;
+  margin: 18px;
+  padding-left: 60px;
+  line-height: -10px;
+}
+div.mouth{
+  font-size: 130px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  margin: 0px;
+  padding-top:-10px;
+  line-height: 80px;
+  float: left;
+}
+.matter{
+}
+.mattertext{
+  font-size: 20px;
+}
+
+
+
+/*******logo*****/
+.logocontainer{
+  padding-top: -15px;
+
+}
+#logo{
+    
+     color:red;
+    text-align: left;
+    font-size: 120px;
+    padding-left: 20px;
+    margin-top: 10px;
+	position: relative;
+background: white;
+}
+#logo span{
+      font-weight: bold;
+     color: grey;
+	height:30%;
+	overflow:hidden;
+
+}

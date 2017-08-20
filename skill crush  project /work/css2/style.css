@@ -1,0 +1,88 @@
+
+/*****Header****/
+header {padding: 10px;
+}
+#rogue{
+  color:green;
+  float:left;
+  clear:both;
+}
+nav{
+  float:right;
+  padding:60px 35px
+  clear:both;
+}
+nav ul li {
+  display:inline-block;
+  color: green;
+}
+nav ul li{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  color:green;
+  padding-left:50px;
+  width: auto;
+  clear:both;
+}
+
+//****categories****//
+section{
+  padding-right: 10px;
+}
+#special{
+  height: 200px;
+  width:350px;
+  padding:10px;
+  margin: -1px;
+  border:1px solid;
+  float:left;
+  clear:right;
+
+}
+#review{
+  height: 200px;
+  width:350px;
+  padding:10px;
+  margin: -1px;
+  border:1px solid;
+  float:left;
+  clear:right;
+}
+
+#contacts{
+  height:200px;
+  width:350px;
+  padding: 10px;
+  margin: -1px;
+  border:1px solid;
+  float:left;
+  clear:right;
+}
+/*****border****/
+p.solid{
+  border-style: none;
+  border-width: 10px;
+}
+
+/*****list****/
+ul {
+  list-style: initial;
+  color:	#7FFF00;
+  text-transform: capitalize;
+}
+
+
+h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+ #fresh {
+   font-style: italic;
+   color: green;
+ }
+
+ footer{
+   text-align: center;
+   clear:both;
+ }
